@@ -1,6 +1,7 @@
 from flask import Blueprint
 from init import db, ma 
-from models.employee import Employee
+# from models.employee import Employee
+# from models.user import UserSchema
 
 db_commands = Blueprint('db', __name__)
 
